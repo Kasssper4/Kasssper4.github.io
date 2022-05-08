@@ -279,4 +279,39 @@ p {
 .team__text {
     line-height: 1.5;
     font-size: 14px;
+    margin-bottom: 30px;
+}
+
+
+/** social
+=========================== */
+
+.social {
+    display: flex;
+}
+
+.social__link {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #e8ecee;
+    margin-right: 4px;
+    transition: .1s linear;
+}
+
+.social__link:hover {
+    background-color: #e8ecee;
+}
+
+.social__icon {
+    fill: #c6cacc;
+    height: 18px;
+    transition: fill .1s linear;
+}
+
+.social__link:hover .social__icon{
+    fill: #e84545;
 }
